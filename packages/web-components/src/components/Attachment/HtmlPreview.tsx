@@ -17,6 +17,7 @@ const isDarkTheme = (): boolean => {
 
 const DARK_STYLE =
   "<style data-allure-preview-theme>:root,html,body{background:#1c1c1e !important;color:#e5e5e7 !important;}body *{border-color:rgba(255,255,255,0.12) !important;}</style>";
+
 const SCROLL_SAFE_STYLE =
   "<style data-allure-preview-scroll-fix>html,body{height:auto !important;min-height:100% !important;overflow:visible !important;}</style>";
 
